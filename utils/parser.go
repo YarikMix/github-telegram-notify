@@ -98,7 +98,7 @@ func CreateContents(meta *types.Metadata) (text string, markupText string, marku
 }
 
 func createPushText(event *types.PushEvent) string {
-	text := fmt.Sprintf("<b>🔨 %d New commit to</b> <a href='%s'>%s</a>[<code>%s</code>]\n\n",
+	text := fmt.Sprintf("<b>🔨 %d New commit123 to</b> <a href='%s'>%s</a>[<code>%s</code>]\n\n",
 		len(event.Commits),
 		event.Repo.HTMLURL,
 		event.Repo.FullName,
